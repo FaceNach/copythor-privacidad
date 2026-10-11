@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacidad · Copythor</title>
+<style>
+  :root { --bg: #fbfaf7; --fg: #1d1d1b; --muted: #6b6a65; --line: #e4e1d8; --accent: #2f6f5e; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #1b1c1a; --fg: #eceae4; --muted: #a3a19a; --line: #34352f; --accent: #7cc7ae; }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--fg); font: 17px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+  main { max-width: 720px; margin: 0 auto; padding: 40px 16px 80px; }
+  nav { display: flex; gap: 16px; margin-bottom: 28px; font-size: 15px; }
+  a { color: var(--accent); }
+  h1 { margin: 0 0 4px; font-size: 30px; line-height: 1.2; }
+  h2 { margin: 32px 0 8px; font-size: 19px; }
+  .fecha { margin: 0 0 24px; color: var(--muted); font-size: 15px; }
+  hr { margin: 56px 0; border: 0; border-top: 1px solid var(--line); }
+  li { margin: 4px 0; }
+  code { font-size: .9em; }
+</style>
+</head>
+<body>
+<main>
+  <nav><a href="#es">Español</a><a href="#en">English</a></nav>
+
+  <section id="es" lang="es">
+    <h1>Política de privacidad</h1>
+    <p class="fecha">Copythor · vigente desde el 8 de octubre de 2026</p>
+
+    <p>Copythor copia el texto y las imágenes de la página que estás viendo y los pega en el chat de IA que elijas. Todo pasa en tu navegador.</p>
+
+    <h2>Qué datos maneja</h2>
+    <ul>
+      <li><strong>El contenido de la página que elegís copiar</strong> (texto e imágenes). Se lee solo cuando tocás el ícono, usás el atajo o el menú de la extensión.</li>
+      <li>Ese contenido se guarda en el almacenamiento local de la extensión (<code>chrome.storage.local</code>), en tu computadora, hasta que copies otra cosa o pasen 2 horas. Si cerrás Chrome antes, se borra cuando lo volvés a abrir. Si lo copiaste en una ventana de incógnito, se borra al cerrar la última ventana de incógnito. También se borra si desinstalás la extensión.</li>
+      <li>El texto también se copia al portapapeles de tu sistema, para que puedas pegarlo.</li>
+      <li>Tu ajuste del máximo de imágenes por copia y tu aceptación de este aviso se guardan en el mismo almacenamiento local. La primera vez, la extensión te muestra qué hace con tus datos y no lee ninguna página hasta que tocás «Acepto».</li>
+      <li>Cuando pegás, el texto y las imágenes se insertan en el sitio del chat que elegiste. Algunos chats suben las imágenes a sus servidores apenas se adjuntan, antes de que envíes el mensaje. Desde ese momento, quedan sujetos a la política de privacidad de ese servicio.</li>
+    </ul>
+
+    <h2>Qué no hace</h2>
+    <ul>
+      <li>No envía datos a servidores del desarrollador ni de terceros: la extensión no tiene servidores.</li>
+      <li>No usa analíticas, publicidad ni rastreo.</li>
+      <li>No vende ni transfiere datos a nadie.</li>
+      <li>No lee tu historial ni tus conversaciones.</li>
+      <li>No envía mensajes por vos: el mensaje lo mandás vos.</li>
+    </ul>
+
+    <h2>En los sitios de chat</h2>
+    <p>En los sitios de chat de IA de su lista (por ejemplo claude.ai, chatgpt.com o gemini.google.com), la extensión carga un pequeño script que solo reacciona cuando pegás con Ctrl+V: compara lo que pegaste con el texto que copió la extensión y, si es el mismo, adjunta las imágenes copiadas. Si no coincide, no hace nada. Nunca guarda ni envía lo que pegás.</p>
+
+    <h2>Uso limitado</h2>
+    <p>El uso de la información cumple con la <a href="https://developer.chrome.com/docs/webstore/program-policies/limited-use">Política de datos de usuario de la Chrome Web Store</a>, incluidos los requisitos de Uso limitado: los datos se usan solo para copiar y pegar lo que elegís, y no se venden, no se transfieren ni se usan para ninguna otra cosa.</p>
+
+    <h2>Contacto</h2>
+    <p>Para preguntas sobre esta política: <strong><a href="mailto:nachdogodevelopment@gmail.com">nachdogodevelopment@gmail.com</a></strong>.</p>
+
+    <h2>Cambios</h2>
+    <p>Si esta política cambia, se actualiza esta página y su fecha de vigencia.</p>
+  </section>
+
+  <hr>
+
+  <section id="en" lang="en">
+    <h1>Privacy policy</h1>
+    <p class="fecha">Copythor · effective October 8, 2026</p>
+
+    <p>Copythor copies the text and images of the page you are viewing and pastes them into the AI chat of your choice. Everything happens in your browser.</p>
+
+    <h2>What data it handles</h2>
+    <ul>
+      <li><strong>The content of the page you choose to copy</strong> (text and images). It is read only when you click the icon, use the shortcut or the extension's menu.</li>
+      <li>That content is stored in the extension's local storage (<code>chrome.storage.local</code>), on your computer, until you copy something else or 2 hours pass. If you close Chrome first, it is deleted when you open it again. If you copied it in an incognito window, it is deleted when the last incognito window closes. It is also deleted if you uninstall the extension.</li>
+      <li>The text is also copied to your system clipboard so you can paste it.</li>
+      <li>Your maximum-images-per-copy setting and your acceptance of this notice are kept in the same local storage. The first time, the extension shows you what it does with your data and reads no page until you click "I agree".</li>
+      <li>When you paste, the text and images are inserted into the chat site you chose. Some chats upload images to their servers as soon as they are attached, before you send the message. From then on, they are subject to that service's privacy policy.</li>
+    </ul>
+
+    <h2>What it does not do</h2>
+    <ul>
+      <li>It does not send data to the developer's or any third party's servers: the extension has no servers.</li>
+      <li>It does not use analytics, advertising or tracking.</li>
+      <li>It does not sell or transfer data to anyone.</li>
+      <li>It does not read your history or your conversations.</li>
+      <li>It does not send messages for you: you send the message.</li>
+    </ul>
+
+    <h2>On chat sites</h2>
+    <p>On the AI chat sites in its list (for example claude.ai, chatgpt.com or gemini.google.com), the extension loads a small script that only reacts when you paste with Ctrl+V: it compares what you pasted with the text the extension copied and, if it is the same, attaches the copied images. If it doesn't match, it does nothing. It never stores or sends what you paste.</p>
+
+    <h2>Limited Use</h2>
+    <p>The use of information complies with the <a href="https://developer.chrome.com/docs/webstore/program-policies/limited-use">Chrome Web Store User Data Policy</a>, including the Limited Use requirements: data is used only to copy and paste what you choose, and it is not sold, transferred or used for anything else.</p>
+
+    <h2>Contact</h2>
+    <p>For questions about this policy: <strong><a href="mailto:nachdogodevelopment@gmail.com">nachdogodevelopment@gmail.com</a></strong>.</p>
+
+    <h2>Changes</h2>
+    <p>If this policy changes, this page and its effective date will be updated.</p>
+  </section>
+</main>
+</body>
+</html>
